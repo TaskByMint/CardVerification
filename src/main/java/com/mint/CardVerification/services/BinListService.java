@@ -18,8 +18,8 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Collections;
 
-@Service
 @Slf4j
+@Service
 public class BinListService {
 
 

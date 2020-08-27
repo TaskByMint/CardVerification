@@ -14,10 +14,10 @@ public class RequestResponseLoggingInterceptor implements ClientHttpRequestInter
     @Override
     public ClientHttpResponse intercept(HttpRequest request, byte[] body, ClientHttpRequestExecution execution) throws IOException {
 
-        log.info("Request Body "+ new String(body,"UTF-8"));
+      //  log.info("Request Body "+ new String(body,"UTF-8"));
         ClientHttpResponse response = execution.execute(request, body);
 
-        log.info("Response Body "+ new String(body,"UTF-8"));
+        //log.info("Response Body "+ new String(body,"UTF-8"));
         return response;
     }
 }

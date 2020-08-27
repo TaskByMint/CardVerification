@@ -2,7 +2,6 @@ package com.mint.CardVerification.dto.thirdParty;
 
 import lombok.Data;
 
-import java.lang.Number;
 
 @Data
 public class BinListResponse {
