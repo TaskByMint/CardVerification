@@ -6,8 +6,8 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "card_bins")
-public class CardScheme {
+@Table(name = "card_schemes")
+public class CardScheme{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
