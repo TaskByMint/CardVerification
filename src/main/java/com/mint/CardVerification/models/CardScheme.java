@@ -29,7 +29,7 @@ public class CardScheme {
     @Column(name = "bank")
     private String bank;
 
-    @Column(name = "bin_List_Response",length = 1000)
+    @Column(name = "bin_List_Response",columnDefinition = "LONGTEXT")
     private String binListResponse;
 
 }
