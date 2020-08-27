@@ -19,7 +19,7 @@ public class CardSchemeController {
 
 
     @GetMapping(value = "/verify/{cardbin}")
-    public ResponseEntity<?> sendMessageToKafkaTopic(@PathVariable("cardbin") String cardbin) {
+    public ResponseEntity<?> verifyCard(@PathVariable("cardbin") String cardbin) {
 
         try{
 
