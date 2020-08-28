@@ -4,6 +4,7 @@ com/mint/CardVerification/controllers/CardSchemeController.class
 com/mint/CardVerification/services/CardSchemeService.class
 com/mint/CardVerification/services/BinListService.class
 com/mint/CardVerification/dto/thirdParty/Number.class
+com/mint/CardVerification/config/WebMvcConfig.class
 com/mint/CardVerification/dto/CardVerifyResponse.class
 com/mint/CardVerification/utils/RequestResponseLoggingInterceptor.class
 com/mint/CardVerification/models/CardBinCounter.class
@@ -15,5 +16,4 @@ com/mint/CardVerification/dto/thirdParty/Country.class
 com/mint/CardVerification/models/CardScheme.class
 com/mint/CardVerification/services/CardSchemeProducer.class
 com/mint/CardVerification/dto/PayloadResponse.class
-com/mint/CardVerification/dto/PagedResponse.class
 com/mint/CardVerification/repository/CardSchemeRepository.class
